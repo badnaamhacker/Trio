@@ -34,8 +34,8 @@ logger = logging.getLogger(__name__)
 
 # ----------------- ENV -----------------
 load_dotenv()
-TELEGRAM_BOT_TOKEN = os.getenv("7998800242:AAFEdw_XQEO41qI4Q6zXiPzaal6CN7VO2Hc", "7998800242:AAFEdw_XQEO41qI4Q6zXiPzaal6CN7VO2Hc").strip()
-ADMIN_TELEGRAM_ID = int(os.getenv("5156942271", "5156942271"))
+TELEGRAM_BOT_TOKEN = os.getenv("7998800242EO41qI4Q6zXiPzaal6CN7VO2Hc", "7998800242:AAFEdw_XQEO41Q6zXiPzaal6CN7VO2Hc").strip()
+ADMIN_TELEGRAM_ID = int(os.getenv("5152271", "515671"))
 BOT_USERNAME = os.getenv("@TrioConnectbot", "@TrioConnectbot").strip().lstrip("@")  # without @
 
 if not TELEGRAM_BOT_TOKEN:
